@@ -2,5 +2,6 @@ from django.shortcuts import render, HttpResponse
 
 # Create your views here.
 
-def hello(request, nome):
-    return HttpResponse('<h1>Hello {}</h1>'. format(nome)) 
+def soma(request, numer_a, numer_b):
+    total = numer_a + numer_b 
+    return HttpResponse('<h1>Hello {}</h1>'. format(total)) 

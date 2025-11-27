@@ -20,5 +20,5 @@ from MeuApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello/<nome>/', views.hello)
+    path('soma/', views.soma)
 ]
